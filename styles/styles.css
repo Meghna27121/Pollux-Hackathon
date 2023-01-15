@@ -849,6 +849,9 @@ section {
   .main-title h2 .bg-text {
     font-size: 5.5rem;
   }
+  #video .right-contact .submit-btn{
+    transform: translate(100%,50%);
+  }
 }
 @media screen and (max-width: 1250px) {
   .blogs {
@@ -995,3 +998,12 @@ section {
 .dropdown a:hover {background-color: #ddd;}
 
 .show {display: block;}
+
+#video .left-contact img{
+  width: 100%;
+}
+
+#video .right-contact img{
+  width: 58%;
+  height: 70%;
+}
